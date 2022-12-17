@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/myportfolio/static/css/main.f6194063.css",
+    "main.js": "/myportfolio/static/js/main.d71c00cd.js",
+    "static/media/srs.png": "/myportfolio/static/media/srs.a4602e92ceb5cc297d9e.png",
+    "static/media/challenge.png": "/myportfolio/static/media/challenge.f82d250d82e63f39dceb.png",
+    "static/media/product.png": "/myportfolio/static/media/product.3f4c169bd585e24cce2f.png",
+    "static/media/Remote.png": "/myportfolio/static/media/Remote.ec4c559ebe71a0220bca.png",
+    "static/media/background.jpg": "/myportfolio/static/media/background.5c561a3faf599b00e27e.jpg",
+    "static/media/coder-logo.png": "/myportfolio/static/media/coder-logo.615c36b13fb2f93e6d99.png",
+    "static/media/profile.jpg": "/myportfolio/static/media/profile.1bec679fea1a7b66d35c.jpg",
+    "static/media/expenses.png": "/myportfolio/static/media/expenses.9f3696a327ba56cb3853.png",
+    "static/media/resume.pdf": "/myportfolio/static/media/resume.9b28ee70203bf80a2357.pdf",
+    "static/media/temperature.png": "/myportfolio/static/media/temperature.c90d1987f9e0f1edee81.png",
+    "index.html": "/myportfolio/index.html",
+    "main.f6194063.css.map": "/myportfolio/static/css/main.f6194063.css.map",
+    "main.d71c00cd.js.map": "/myportfolio/static/js/main.d71c00cd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f6194063.css",
+    "static/js/main.d71c00cd.js"
+  ]
+}
