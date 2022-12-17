@@ -1,0 +1,64 @@
+.mainContent {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  gap: 1rem;
+  align-self: flex-start;
+  padding: 4rem;
+  align-items: center;
+}
+.animate {
+  animation: color-change 1s infinite;
+  font-size: 1.2rem;
+}
+
+@keyframes color-change {
+  0% {
+    color: red;
+  }
+  50% {
+    color: rgb(147, 24, 223);
+  }
+  100% {
+    color: red;
+  }
+}
+#projects {
+  height: 3rem;
+  background-color: indigo;
+  border-radius: 0.4rem;
+  width: 5rem;
+  font-size: 1.2rem;
+  color: white;
+  cursor: pointer;
+}
+#projects:hover {
+  transition: 0.3s;
+  background-color: rgb(43, 1, 73);
+}
+@media only screen and (max-width: 600px) {
+  .mainContent {
+    display: flex;
+    justify-content: center;
+    align-items: right;
+    flex-direction: row;
+  }
+  .animate {
+    font-size: 2rem;
+  }
+  .animate svg {
+    font-size: 2rem;
+  }
+}

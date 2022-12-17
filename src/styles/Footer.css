@@ -1,0 +1,29 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #121619;
+  color: white;
+  gap: 5rem;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.footer svg {
+  font-size: 3rem;
+}
+.socialMedia {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+@media only screen and (max-width: 600px) {
+  .socialMedia {
+    display: flex;
+    gap: 1rem;
+  }
+  .footer svg {
+    font-size: 2rem;
+  }
+}
